@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reservation Hotel Room</title>
+    
+</head>
+
+<body>
+    <div class="h1">
+        <h1>Reservation Hotel Room</h1>
+    </div>
+
+    <div class="img">
+        <img src="https://www.pakuwonjati.com/upload/2023/08/64d5f68a9d95c-pakuwon-group-40th-yogyaka.jpg" width="600"  height="400">
+    </div>
+    <form action="" method="post"> 
+         
+    <div class="card">
+            <div class="head1">
+            <h1><strong>Personal Data</strong></h1>
+            </div>
+                    <div class="input">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" />
+                        
+                        <label for="gender">Gender</label></li>
+                        <input type="text" id="gender" name="gender"/>
+
+                        <label for="email">Email Address</label></li>
+                        <input type="email" id="email" name="email" />
+                    
+                        <label for="telp">Telp Number</label></li>
+                        <input type="text" id="telp" name="telp" />
+                    </div>
+        </div>   
+            
+        
+    <div class="card">
+        <div class="head1">
+            <h1><strong>Reservation Room Form</strong></h1>
+        </div>
+
+        <div class="input">
+                <label for="reservation_name">Reservation Name</label>
+                <input type="text" id="reservation_name" name="reservation_name" />
+           
+                <label for="booking_date">Booking Date</label></li>
+                <input type="text" id="booking_date" name="booking_date" />
+            
+                <label for="room_type">Room Type</label>
+                <select id="room_type" name="room_type">
+                    <option value="deluxe">Deluxe</option>
+                    <option value="standard">Standard</option>
+                    <option value="suite">Suite</option>
+                </select>
+            
+                <label for="bed_type">Bed Type</label>
+                <select id="bed_type" name="bed_type">
+                    <option value="single">Single bed</option>
+                    <option value="double">Double bed</option>
+                    <option value="twin">Twin beds</option>
+                </select>
+            
+                <label>Breakfast</label>
+                <br>
+                    <br>
+                    <input type="radio" id="with_breakfast" name="breakfast" value="with" /> With Breakfast
+                    <input type="radio" id="without_breakfast" name="breakfast" value="without" /> Without Breakfast
+                    </br>
+                </br>
+            </div>
+        </div>
+        
+        <div class="card">
+        <div class="head1">
+                <h1><strong>Payment</strong></h1>
+        </div>
+        <div class="input">    
+                <label for="check_in">Check in date</label>
+                <input type="text" id="check_in" name="check_in" />
+                    
+                <label for="check_out">Check out date</label>
+                <input type="text" id="check_out" name="check_out" />
+                    
+                <label for="payment_method">Payment Method</label>
+                <select id="payment_method" name="payment_method">
+                    <option value="cash">Cash</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                </select>
+                
+        </div>
+        </div>
+        
+        <div style="padding: 8px 15px;">
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>
